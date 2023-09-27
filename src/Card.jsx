@@ -11,7 +11,7 @@ export default function Card({ item }) {
         <div className="card-info-top">
           <img
             className="location-logo"
-            src="\public\images\location-icon.png"
+            src="\public\location-icon.png"
             alt=""
           />{" "}
           <span className="location">{item.location}</span>{" "}
