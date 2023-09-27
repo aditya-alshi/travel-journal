@@ -43,15 +43,20 @@ body {
 
 
 .card {
+  /* padding: 0px 20px; */
   margin: auto;
+  margin-top: 20px;
   margin-bottom: 30px;
   max-width: 60%;
   display: flex;
   justify-content: space-around;
   /* background-color: rgb(239, 179, 241); */
+  align-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .card-picture {
+  flex: 1 1 200px;
   max-width: 200px;
   border-radius: 9px;
 }
@@ -59,10 +64,10 @@ body {
 .card-info {
   align-self: center;
   /* background-color: rgb(163, 210, 250); */
+  max-width: 500px;
+  overflow: auto;
   max-height: 220px;
   margin-top: 20px;
-  max-width: 60%;
-  overflow: auto;
   margin-left: 25px;
   margin-right: auto;
   margin-bottom: auto
@@ -77,10 +82,15 @@ body {
 .card-info-top {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  max-width: 500px;
+  flex-wrap: wrap;
+  align-content: flex-start;
 }
 
 .location {
+  margin-left: 3px;
+  margin-right: auto;
   font-weight: 600;
   margin-right: 10px;
 }
