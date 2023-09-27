@@ -17,7 +17,8 @@ export default function Card({ item }) {
           <span className="location">{item.location}</span>{" "}
           <a
             className="g-map-link"
-            href="https://maps.app.goo.gl/E5RSBibmYf9zZGXv9"
+            href={item.googleMapsUrl}
+            target="_blank"
           >
             View on Google Maps
           </a>
